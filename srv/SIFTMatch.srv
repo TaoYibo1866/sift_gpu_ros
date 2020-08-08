@@ -1,0 +1,10 @@
+sensor_msgs/Image query_img
+---
+uint32 extract_cost_ms
+uint32 match_cost_ms
+uint32 nfeature
+uint32 nmatch
+uint32 width # train_img
+uint32 height # train_img
+float32[] query_kps
+float32[] train_kps

@@ -1,0 +1,4 @@
+<launch>
+    <node name="sift_gpu" pkg="sift_gpu" type="sift_gpu_node" args="-v 0 -cuda" output="screen"/>
+    <node name="one_shot" pkg="sift_gpu" type="one_shot_node.py" output="screen"/>
+</launch>
